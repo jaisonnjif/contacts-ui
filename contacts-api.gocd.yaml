@@ -9,7 +9,7 @@ pipelines:
     materials:
       mygit:  # this is the name of material
         # says about type of material and url at once
-        git: https://github.com/ckaushik/contacts-api.git
+        git: https://github.com/jaisonnjif/contacts-ui
     stages:
       - build: # name of stage
           jobs:
@@ -29,7 +29,7 @@ pipelines:
         pipeline: api-compile
         stage: build
       mygit:
-        git: https://github.com/ckaushik/contacts-api.git
+        git: https://github.com/jaisonnjif/contacts-ui
     stages:
       - build:
           jobs:
